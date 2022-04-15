@@ -42,14 +42,14 @@ const banner = `/**
 `;
 
 const inputOptions = {
-  input: 'lib/adodb/main.js'
+  input: 'lib/adodb/main.js',
 };
 
 const outputOptions = {
   indent: true,
   strict: true,
   format: 'iife',
-  file: 'lib/adodb.js'
+  file: 'lib/adodb.js',
 };
 
 build(inputOptions, outputOptions);
